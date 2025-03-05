@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritika Sharma | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h1 class="logo">Ritika Sharma</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hey, I’m Ritika!</h1>
+            <p>Software Engineer | Problem Solver | Storyteller</p>
+            <button class="cta-btn">Explore My Journey</button>
+        </div>
+        <div class="avatar" onclick="showSpeechBubble()">
+            <img src="ritika-avatar.png" alt="Ritika Avatar">
+            <div class="speech-bubble" id="speechBubble">“Code is poetry, and I’m here to write epics!”</div>
+        </div>
+    </section>
+
+    <!-- Skills Section with 3D Cube -->
+    <section id="skills" class="skills-section">
+        <h2>Technical Arsenal</h2>
+        <div class="cube-container">
+            <div class="cube">
+                <div class="face front">Java</div>
+                <div class="face back">SQL</div>
+                <div class="face right">Python</div>
+                <div class="face left">Axiom</div>
+                <div class="face top">Git</div>
+                <div class="face bottom">Agile</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="experience-section">
+        <h2>My Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Software Engineer 1A</h3>
+                <p>Bank of America | Jun 2023 - Present</p>
+                <p>Led MNPI data masking & APAC AU/SG projects.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Software Engineer Apprentice</h3>
+                <p>Bank of America | Jun 2022 - May 2023</p>
+                <p>Supported regulatory reporting & Axiom CV10.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>B.Tech in CS&T</h3>
+                <p>SNDT Women’s University | 2018 - 2022</p>
+                <p>GPA: 9.34</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Carousel -->
+    <section id="projects" class="projects-section">
+        <h2>Spotlight Projects</h2>
+        <div class="carousel">
+            <div class="carousel-item">Risk Mitigation Strategies</div>
+            <div class="carousel-item">MNPI Data Masking</div>
+            <div class="carousel-item">Axiom Training Sessions</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Let’s Connect</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
